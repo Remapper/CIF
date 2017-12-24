@@ -1,0 +1,22 @@
+[Unit]
+Description=CIF's distributed currency daemon
+After=network.target
+
+[Service]
+User=cif
+Group=cif
+
+Type=forking
+PIDFile=/var/lib/cifd/cifd.pid
+ExecStart=/usr/bin/cifd -daemon -pid=/var/lib/cifd/cifd.pid \
+-conf=/etc/cif/cif.conf -datadir=/var/lib/cifd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

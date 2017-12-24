@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CIF
+Comment=CIF P2P Cryptocurrency
+Comment[fr]=CIF, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=CIF, eşten eşe kriptografik sanal para birimi
+Exec=cif-qt %u
+Terminal=false
+Type=Application
+Icon=cif128
+MimeType=x-scheme-handler/cif;
+Categories=Office;Finance;

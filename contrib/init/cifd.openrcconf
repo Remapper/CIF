@@ -1,0 +1,27 @@
+# /etc/conf.d/cifd: config file for /etc/init.d/cifd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cif/cif.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cifd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cifd.pid"
+
+# Where to write cifd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cifd"
+
+# User and group to own cifd process
+#BITCOIND_USER="cif"
+#BITCOIND_GROUP="cif"
+
+# Path to cifd executable
+#BITCOIND_BIN="/usr/bin/cifd"
+
+# Nice value to run cifd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+

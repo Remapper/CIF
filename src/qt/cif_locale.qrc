@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cif_bg.qm</file>
+        <file alias="de">locale/cif_de.qm</file>
+        <file alias="en">locale/cif_en.qm</file>
+        <file alias="es">locale/cif_es.qm</file>
+        <file alias="fi">locale/cif_fi.qm</file>
+        <file alias="fr">locale/cif_fr.qm</file>
+        <file alias="it">locale/cif_it.qm</file>
+        <file alias="it">locale/cif_ja.qm</file>
+        <file alias="pl">locale/cif_pl.qm</file>
+        <file alias="pt">locale/cif_pt.qm</file>
+        <file alias="ru">locale/cif_ru.qm</file>
+        <file alias="sk">locale/cif_sk.qm</file>
+        <file alias="sv">locale/cif_sv.qm</file>
+        <file alias="vi">locale/cif_vi.qm</file>
+        <file alias="zh_CN">locale/cif_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cif_zh_TW.qm</file>
+    </qresource>
+</RCC>
