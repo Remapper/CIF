@@ -1,11 +1,9 @@
 CIF Core staging tree 0.12
 ===============================
 
-https://www.cifpay.io
-
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
-Copyright (c) 2014-2015 CIF Core Developers
+Copyright (c) 2014-2017 CIF Core Developers
 
 
 What is CIF?
